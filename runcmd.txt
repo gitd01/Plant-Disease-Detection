@@ -2,3 +2,6 @@ cd ./Desktop/plant\ disease\ detection
 source tfenv/Scripts/activate
 conda init
 jupyter notebook
+
+
+streamlit run file_name.py
