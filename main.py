@@ -19,29 +19,31 @@ app_mode=st.sidebar.selectbox("Select Page",["Home","About","Disease Detection"]
 
 #Home Page
 if(app_mode=="Home"):
-    st.header("Plant Disease Recognition System")
+    st.header("Plant Disease Detection System")
     image_path="home_page.jpeg"
     st.image(image_path,use_column_width=True)
     st.markdown("""
-    Welcome to the Plant Disease Recognition System! 🌿🔍
-    
-    Our mission is to help in identifying plant diseases efficiently. Upload an image of a plant, and our system will analyze it to detect any signs of diseases. Together, let's protect our crops and ensure a healthier harvest!
+    # Welcome to the Plant Disease Detection System! 🌿🔍
 
-    ### How It Works
-    1. **Upload Image:** Go to the **Disease Recognition** page and upload an image of a plant with suspected diseases.
-    2. **Analysis:** Our system will process the image using advanced algorithms to identify potential diseases.
-    3. **Results:** View the results and recommendations for further action.
+Welcome to the Plant Disease Detection System, where our mission is to help identify plant diseases efficiently. By uploading an image of a plant, our system can analyze it to detect any signs of diseases. Let's work together to protect our crops and ensure a healthier harvest!
 
-    ### Why Choose Us?
-    - **Accuracy:** Our system utilizes state-of-the-art machine learning techniques for accurate disease detection.
-    - **User-Friendly:** Simple and intuitive interface for seamless user experience.
-    - **Fast and Efficient:** Receive results in seconds, allowing for quick decision-making.
+## How It Works
 
-    ### Get Started
-    Click on the **Disease Recognition** page in the sidebar to upload an image and experience the power of our Plant Disease Recognition System!
+1. **Upload Image:** Navigate to the **Disease Detection** page and upload an image of a plant suspected to have diseases.
+2. **Analysis:** Our system processes the uploaded image using advanced algorithms to identify potential diseases.
+3. **Results:** View the results.
 
-    ### About Us
-    Learn more about the project, our team, and our goals on the **About** page.
+## Why Choose Us?
+
+- **Accuracy:** Our system utilizes state-of-the-art machine learning techniques for accurate disease detection.
+- **User-Friendly:** Our interface is designed to be simple and intuitive, providing a seamless user experience.
+- **Fast and Efficient:** Receive results within seconds, enabling quick decision-making.
+
+## Get Started
+
+To begin, click on the **Disease Detection** page in the sidebar to upload an image and experience the power of our Plant Disease Detection System!
+
+
     """)
 
 #About Page
@@ -49,7 +51,8 @@ if(app_mode=="About"):
     st.header("About")
     st.markdown("""
                 #### About Dataset
-                This dataset is recreated using offline augmentation from the original dataset.The original dataset can be found on this github repo.
+                This dataset is recreated using offline augmentation from the original dataset. The original dataset can be found here 👉 [Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset?resource=download).
+                
                 This dataset consists of about 87K rgb images of healthy and diseased crop leaves which is categorized into 38 different classes.The total dataset is divided into 80/20 ratio of training and validation set preserving the directory structure.
                 A new directory containing 33 test images is created later for prediction purpose.
                 #### Content
