@@ -67,8 +67,8 @@ elif(app_mode=="Disease Detection"):
         st.image(test_image,width=4,use_column_width=True)
     #Predict button
     if(st.button("Predict")):
-        #st.balloons()
-        st.snow()
+        st.balloons()
+        #st.snow()
         with st.spinner("Please wait.."):
             st.write("Our Prediction")
             result_index = model_prediction(test_image)
