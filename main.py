@@ -31,7 +31,7 @@ Welcome to the Plant Disease Detection System, where our mission is to help iden
 
 1. **Upload Image:** Navigate to the **Disease Detection** page and upload an image of a plant suspected to have diseases.
 2. **Analysis:** Our system processes the uploaded image using advanced algorithms to identify potential diseases.
-3. **Results:** View the results.
+3. **Results:** Instantly view the results.
 
 ## Why Choose Us?
 
@@ -43,22 +43,48 @@ Welcome to the Plant Disease Detection System, where our mission is to help iden
 
 To begin, click on the **Disease Detection** page in the sidebar to upload an image and experience the power of our Plant Disease Detection System!
 
+## About Dataset
+This dataset is recreated using offline augmentation from the original dataset. The original dataset can be found here 👉 [Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset?resource=download).
+                
+This dataset consists of about 87K rgb images of healthy and diseased crop leaves which is categorized into 38 different classes.The total dataset is divided into 80/20 ratio of training and validation set preserving the directory structure.
+A new directory containing 33 test images is created later for prediction purpose.
+#### Content
+    1. train (70295 images)
+    2. test (33 images)
+    3. validation (17572 images)
 
-    """)
+GitHub Repository: [Plant Disease Detection](https://github.com/gitd01/Plant-Disease-Detection)
+
+""")
 
 #About Page
 if(app_mode=="About"):
     st.header("About")
     st.markdown("""
-                #### About Dataset
-                This dataset is recreated using offline augmentation from the original dataset. The original dataset can be found here 👉 [Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset?resource=download).
-                
-                This dataset consists of about 87K rgb images of healthy and diseased crop leaves which is categorized into 38 different classes.The total dataset is divided into 80/20 ratio of training and validation set preserving the directory structure.
-                A new directory containing 33 test images is created later for prediction purpose.
-                #### Content
-                1. train (70295 images)
-                2. test (33 images)
-                3. validation (17572 images)
+                #### About Us
+
+We are a group of final year B.Tech students from Harcourt Butler Technical University working on a project titled "Plant Disease Detection using Deep Learning". The Plant Disease Detector was developed under the guidance of **Dr. Vandana Dixit Kaushik** ma'am. Our team is passionate about leveraging machine learning techniques to address real-world challenges in agriculture, particularly in the detection and prevention of plant diseases.
+
+Our project is being developed as part of our college curriculum. We aim to contribute to the advancement of agricultural technology by providing farmers with an efficient tool for identifying and managing crop diseases. Through our project, we strive to make a positive impact on crop yields, agricultural sustainability, and food security.
+
+#### Team Members
+- Divyanshi Gupta
+- Himanshu Singh
+- Himanshi Rathore
+- Vanshika Garg
+
+
+#### Project Mentor
+Dr. Vandana Dixit Kaushik  
+Professor, Department of Computer Science And Engineering  
+HBTU, Kanpur
+
+---
+
+Feel free to reach out to us if you have any questions or would like to learn more about our project.
+
+**For Queries:**  
+You can email us at: [guptadivyanshi047@gmail.com](mailto:guptadivyanshi047@gmail.com)
 
                 """)
 
