@@ -6,3 +6,4 @@ tfenv/
 trained_model.h5/
 trained_plant_disease_model.keras/
 DOC/
+runcmd.txt/
